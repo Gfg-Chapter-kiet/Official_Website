@@ -1,0 +1,258 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;  
+
+.aboutt{
+    margin-left: 36%;
+}
+
+.bgg{
+    background-color: rgb(18, 18, 24);
+}
+
+
+.shadoww{
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(24, 49, 31);
+-moz-box-shadow: 10px 10px 5px 0px  rgb(23, 58, 33);
+box-shadow: 10px 10px 5px 0px  rgb(14, 47, 24);
+border-radius: 20px;
+
+transition: transform 250ms;
+}
+.shadoww:hover{
+    transform: translateY(-10px);
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(5, 57, 20);
+-moz-box-shadow: 10px 10px 5px 0px  rgb(3, 71, 23);
+box-shadow: 10px 10px 5px 0px  rgb(2, 58, 19);
+}
+
+
+.circle-profile{
+    display: inline-flex;
+    height: 17vw;
+    width: 17vw;
+    min-width: 160px;
+    min-height: 160px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    max-width: 190px;
+    max-height: 190px;
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 15%);
+    object-fit: cover;
+    background: #ffffff;
+    border: 2px solid rgba(73, 77, 74, 0.64) 5px 5px;
+    box-shadow: rgba(73, 77, 74, 0.64) 5px 5px;
+}
+
+.circle-profile:hover{
+    transform: translateY(-10px);
+}
+.circle-icon2{
+    margin-left: 40%;
+}
+.team-icons{
+    height: auto;
+    margin: auto auto;
+    width: 70%;
+    text-align: center;
+}
+
+.icon-holder{
+    height: auto;
+    max-width: 250px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+
+}
+
+.icons2{
+    height: auto;
+    margin: auto auto;
+    width: 70%;
+    text-align: center;
+}
+
+.circle-icon {
+    display: inline-flex;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    box-shadow: 0px 2px 10px rgb(90, 90, 90);
+    object-fit: cover;
+    background: #ffffff;
+    border: 1px solid black;
+}
+
+.img-student{
+    margin-left: 44%;
+}
+html{scroll-behavior: smooth; }
+
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+@media (min-width: 260px){
+.media {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+}
+
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 30px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.card {
+    align-items: center;
+    background-color: var(--card-bg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 #000000bf;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    transition: all .5s ease;
+    width: 280px;
+}
+.card:hover{
+    transform: translateY(-10px);
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(52, 112, 69);
+-moz-box-shadow: 10px 10px 5px 0px  rgb(23, 58, 33);
+box-shadow: 10px 10px 5px 0px  rgb(14, 47, 24);
+border-radius: 10px;
+
+
+}
+
+.card, .card-border {
+    aspect-ratio: 3/4;
+    position: relative;
+}
+/* .card-info {
+    bottom: 0;
+    color: #fff;
+    opacity: 0;
+    padding: 10px;
+    position: absolute;
+    transition: opacity .4s ease;
+} */
+
+@media screen and (max-width: 768px) {
+    .img-student{
+       /* display: none; */
+       margin-left: 39%;
+
+    }
+}
+@media screen and (max-width: 449px) {
+    .img-student{
+       /* display: none; */
+       margin-left: 35%;
+
+    }
+}
+/* 
+.landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw 0 10vw;
+    height: 100vh;
+}
+.landingImageContainer {
+    width: auto;
+    margin-right: 50%;
+    margin-right: -15%;
+} */
+
+.imgHeight{
+    height: 25rem;
+    width: 40rem;
+    margin-right: 700px;
+    /* border-radius: 32px; */
+}
+.bgg2{
+    background-color: #f6f0f0;
+}
+
+
+
+.team-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 30px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.card2 {
+    align-items: center;
+    background-color: var(--card-bg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 #000000bf;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    transition: all .5s ease;
+    width: 320px;
+}
+.card2:hover{
+    transform: translateY(-10px);
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(52, 112, 69);
+-moz-box-shadow: 10px 10px 5px 0px  rgb(23, 58, 33);
+box-shadow: 10px 10px 5px 0px  rgb(14, 47, 24);
+border-radius: 10px;
+
+
+}
+
+.card2, .card-border {
+    aspect-ratio: 3/4;
+    position: relative;
+}
+
+.registerButton button{
+    border: 2px solid rgb(0, 2, 0);
+    border-radius: 32px;
+    background: black;
+    color: rgb(15, 163, 15);
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+.registerButton button:hover{
+    background: rgb(6, 164, 6);
+    color:black ;
+}
+
+
+@media screen and (max-width: 1095px) {
+    .landingImage{
+       
+       display: none;
+
+    }
+}
